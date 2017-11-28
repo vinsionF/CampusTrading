@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+    <script src="js/mui.min.js"></script>
+    <script type="text/javascript" src="js/mui.js" ></script>
+    <script src="js/msgcontent.js"></script>    
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/msgIndex.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">    	
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<header class="mui-bar mui-bar-nav">
+	    <h1 class="mui-title">消息</h1>
+	</header>
+	<div class="mui-content">
+		<div onclick="window.location.href='msgContent.html'">
+			<ul class="mui-table-view">
+			    <li class="mui-table-view-cell">Item 1 
+			    	<img class="mui-media-object mui-pull-left" src="images/png-0002.png">
+			        <span class="mui-badge mui-badge-red">11</span>
+			        <div class="mui-media-body">
+	               		<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+	            	</div>
+			    </li>
+			    
+			    <li class="mui-table-view-cell">Item 2 
+			    	<img class="mui-media-object mui-pull-left" src="images/png-0002.png">
+			        <span class="mui-badge mui-badge-red">12</span>
+			        <div class="mui-media-body">
+	               		<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+	            	</div>
+			    </li>
+			    
+			    <li class="mui-table-view-cell">Item 3 
+			       <img class="mui-media-object mui-pull-left" src="images/png-0002.png">
+			        <span class="mui-badge mui-badge-red">6</span>
+			        <div class="mui-media-body">
+	               		<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+	            	</div>
+			    </li>
+			    
+			    <li class="mui-table-view-cell">Item 3 
+			       <img class="mui-media-object mui-pull-left" src="images/png-0002.png">
+			        <span class="mui-badge mui-badge-red">6</span>
+			        <div class="mui-media-body">
+	               		<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+	            	</div>
+			    </li>
+			</ul>
+		</div>
+		
+	</div>
+	
+	<!--<script>
+		function test2(){
+			alert("a");
+			mui.ajax('http://172.16.41.11:8080/ct/ctuser/login2',{
+				data:{
+					userPhone:15123842394,
+					userPwd:123456
+				},
+				dataType:'json',//服务器返回json格式数据
+				type:'get',//HTTP请求类型
+				timeout:10000,//超时时间设置为10秒；
+				success:function(data){
+					alert(data.success);
+					var resultJson = JSON.parse(JSON.stringify( data ));
+					alert(data.message);
+					alert(data.userinfo.nick);
+				},
+				error:function(xhr,type,errorThrown){
+					alert("失败");
+				}
+			});
+		}
+	</script>-->
+	
+</body>
+</html>

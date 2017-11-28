@@ -1,0 +1,40 @@
+{
+	"msgContent.html": {
+		"resources": [
+			"css/msgContent.css",
+			"js/mui.min.js",
+			"images/yuyin_bg.png",
+			"images/help_btn.png",
+			"images/saying.gif",
+			"css/mui.min.css",
+			"js/jquery-3.2.1.min.js",
+			"images/jp_btn.png",
+			"images/yy_btn.png",
+			"images/dglvyou.jpg",
+			"msgIndex.html",
+			"fonts/mui.ttf",
+			"images/aboutHe.png",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf",
+			"images/001.jpg"
+		],
+		"refer": [
+			"msgIndex.html"
+		]
+	},
+	"msgIndex.html": {
+		"resources": [
+			"images/png-0002.png",
+			"js/mui.min.js",
+			"css/msgIndex.css",
+			"css/mui.min.css",
+			"js/jquery-3.2.1.min.js",
+			"js/mui.js",
+			"js/msgcontent.js",
+			"msgContent.html"
+		],
+		"refer": [
+			"msgContent.html"
+		]
+	}
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		
+		
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>		
+		<link rel="stylesheet" type="text/css" href="css/msgContent.css"/>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav">
+	
+    <span class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></span>
+    <h1 class="mui-title">聊天信息</h1>
+    <span class="iconfont icon-geren mui-pull-right"></span>
+</header>
+
+<div class="mui-content">
+	<div class="buy">
+		<ul class="mui-table-view">
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		            <img class="mui-media-object mui-pull-left" src="images/001.jpg">
+		            <div class="mui-media-body">$2500
+		                <p class="mui-ellipsis">睡前聊一聊</p>
+		            </div>
+		        </a>
+		        <button class="mui-btn-red mui-pull-right">立即购买</button>
+	
+		    </li>
+		</ul>	
+	</div>
+	<div class="view"></div>
+		<div class="speak_window">
+			<div class="speak_box">			
+				<div class="answer">
+					<div class="heard_img left"><img src="images/dglvyou.jpg"></div>
+					<div class="answer_text">
+						<p>Hey，您的专属导游在此！您可以向我提问哦！有时微信会跟我闹点小脾气，试试关闭当前页面重新进入就ok啦!</p>
+						<i></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
+	
+	<div class="saying">
+		<img src="images/saying.gif"/>
+	</div>
+	<div class="wenwen-footer">
+		<div class="wenwen_btn left" onClick="to_write()"><img src="images/jp_btn.png"></div>
+		<div class="wenwen_text left">
+		    <div class="write_box">
+		        <input type="text" class="left" onKeyUp="keyup()" placeholder="请输入关键字" />
+		    </div>   
+		    <div class="circle-button" id="wenwen">
+		        按住 说话
+		    </div>
+		</div>
+		<div class="wenwen_help right">
+		    <a href="http://www.dgtour.com.cn/yuyin/index.html">
+		        <img src="images/help_btn.png">
+		    </a>
+		    <button onClick="up_say()" class="right">发送</button>
+		</div>
+		<div style="opacity:0;" class="clear"></div>
+	</div>
+</div>	
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/msgcontent.js"></script>
+
+</html>
